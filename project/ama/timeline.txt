@@ -64,7 +64,7 @@ Write-Host "Welcome to MJ-Ahmad environment!" -ForegroundColor Magenta
 
 Help me to create a project, plan, Goal,Roadmap, Timeline for "Al Mahmud Academy", Create project and plan for a develop complete management system, website,UI design, etc of Al-Mahmud Academy,
 
-Help me to create a Profile of Al-Mahmud Academy as a professional and 
+Help me to create a Profile of Al-Mahmud Academy as a professional and a Plan of 
 ---
 
 আল মাহমুদ একাডেমি Al Mahmud Academy
@@ -164,3 +164,9 @@ microsoft পাওয়ারপয়েন্ট
 - আরবি সেটআপ দেয়া 
 - পেনড্রাইভে আদান প্রদান করা।
 - কম্পিউটারে তিন ভাষায় কম্পোজে হাত চালু হওয়ার গ্যারান্টি
+
+
+Al-Mahmud Academy Management System
+
+Director General's Management Portal
+Comprehensive management tools for Director General to oversee all Al-Mahmud Academy operations
