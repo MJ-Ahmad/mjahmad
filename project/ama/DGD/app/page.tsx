@@ -9,8 +9,8 @@ export default function Home() {
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src="/placeholder.svg?height=40&width=40" alt="TRUSTED-ALLY Logo" className="h-10 w-10" />
-            <span className="text-xl font-bold">TRUSTED-ALLY</span>
+            <img src="/placeholder.svg?height=40&width=40" alt="Al-Mahmud Academy Logo" className="h-10 w-10" />
+            <span className="text-xl font-bold">Al-Mahmud Academy</span>
           </div>
           <nav className="hidden md:flex items-center gap-6">
             <Link href="/dashboard" className="text-sm font-medium hover:underline">
@@ -43,10 +43,10 @@ export default function Home() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  TRUSTED-ALLY Management System
+                  Al-Mahmud Academy Management System
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                  Together Towards a Brighter Future
+                  Skills for Success
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -68,7 +68,7 @@ export default function Home() {
                   Director General's Management Portal
                 </h2>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                  Comprehensive management tools for MJ AHMAD to oversee all TRUSTED-ALLY operations
+                  Comprehensive management tools for Md Nazmul Hasan Farazi to oversee all Al-Mahmud Academy operations
                 </p>
               </div>
             </div>
@@ -185,7 +185,7 @@ export default function Home() {
                 <CardHeader>
                   <FolderTree className="h-6 w-6 mb-2 text-primary" />
                   <CardTitle>Organization Structure</CardTitle>
-                  <CardDescription>Explore the complete TRUSTED-ALLY structure</CardDescription>
+                  <CardDescription>Explore the complete Al-Mahmud Academy structure</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="h-40 bg-gray-100 dark:bg-gray-800 rounded-md flex items-center justify-center">
@@ -204,7 +204,7 @@ export default function Home() {
       </main>
       <footer className="w-full border-t py-6">
         <div className="container flex flex-col items-center justify-between gap-4 md:flex-row">
-          <p className="text-sm text-gray-500 dark:text-gray-400">© 2025 TRUSTED-ALLY. All rights reserved.</p>
+          <p className="text-sm text-gray-500 dark:text-gray-400">© 2025 Al-Mahmud Academy. All rights reserved.</p>
           <div className="flex items-center gap-4">
             <Link href="/terms" className="text-sm text-gray-500 hover:underline dark:text-gray-400">
               Terms of Service

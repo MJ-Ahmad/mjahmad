@@ -21,11 +21,11 @@ type StructureItem = {
 
 // Create the organizational structure data
 const organizationStructure: StructureItem = {
-  name: "TRUSTED-ALLY",
+  name: "Al-Mahmud Academy",
   type: "folder",
   children: [
     {
-      name: "AllyExpense",
+      name: "AlMahmudAcademyExpense",
       type: "folder",
       children: [
         { name: "Income", type: "folder" },
@@ -35,7 +35,7 @@ const organizationStructure: StructureItem = {
       ],
     },
     {
-      name: "AllyNetwork",
+      name: "AlMahmudAcademyNetwork",
       type: "folder",
       children: [
         { name: "Employees", type: "folder" },
@@ -47,7 +47,7 @@ const organizationStructure: StructureItem = {
       ],
     },
     {
-      name: "AllyAcademy",
+      name: "Calligraphy",
       type: "folder",
       children: [
         { name: "Students", type: "folder" },
@@ -57,7 +57,7 @@ const organizationStructure: StructureItem = {
       ],
     },
     {
-      name: "HopeAlly",
+      name: "Handwriting Improvement",
       type: "folder",
       children: [
         { name: "SafeFood", type: "folder" },
@@ -68,7 +68,7 @@ const organizationStructure: StructureItem = {
       ],
     },
     {
-      name: "AllyVoyage",
+      name: "Computer Training",
       type: "folder",
       children: [
         { name: "TravelPackages", type: "folder" },
@@ -78,7 +78,7 @@ const organizationStructure: StructureItem = {
       ],
     },
     {
-      name: "TechAllyVentures",
+      name: "Write Your Future",
       type: "folder",
       children: [
         { name: "SoftwareDevelopment", type: "folder" },
@@ -87,7 +87,7 @@ const organizationStructure: StructureItem = {
       ],
     },
     {
-      name: "AlQuranJourney",
+      name: "AlMahmudAcademy-Skills for Success",
       type: "folder",
       children: [
         { name: "Research", type: "folder" },
@@ -97,7 +97,7 @@ const organizationStructure: StructureItem = {
       ],
     },
     {
-      name: "TrustedAllyDataCenter",
+      name: "AlMahmudAcademyDataCenter",
       type: "folder",
       children: [
         { name: "BusinessOperations", type: "folder" },
@@ -165,7 +165,7 @@ const TreeNode = ({ item, level = 0 }: { item: StructureItem; level?: number }) 
 }
 
 export default function StructurePage() {
-  const [activePath, setActivePath] = useState<string[]>(["TRUSTED-ALLY"])
+  const [activePath, setActivePath] = useState<string[]>(["Al-Mahmud Academy"])
 
   return (
     <div className="flex min-h-screen flex-col">
@@ -175,9 +175,9 @@ export default function StructurePage() {
           <div className="ml-auto flex items-center gap-4">
             <div className="flex items-center gap-2">
               <div className="h-8 w-8 rounded-full bg-primary flex items-center justify-center text-primary-foreground">
-                MJ
+                MN
               </div>
-              <span className="font-medium">MJ AHMAD</span>
+              <span className="font-medium">Md Nazmul Hasan Farazi</span>
             </div>
           </div>
         </div>
@@ -203,7 +203,7 @@ export default function StructurePage() {
 
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <div>
-              <h2 className="text-2xl font-bold tracking-tight">TRUSTED-ALLY Structure</h2>
+              <h2 className="text-2xl font-bold tracking-tight">Al-Mahmud Academy Structure</h2>
               <p className="text-muted-foreground">Interactive organizational structure explorer</p>
             </div>
             <div className="flex gap-2">
@@ -240,7 +240,7 @@ export default function StructurePage() {
                   <div>
                     <h3 className="font-medium text-sm text-muted-foreground">Description</h3>
                     <p className="text-sm">
-                      This section contains information about the organizational structure of TRUSTED-ALLY, including
+                      This section contains information about the organizational structure of Al-Mahmud Academy, including
                       departments, teams, and their relationships.
                     </p>
                   </div>
@@ -264,7 +264,7 @@ export default function StructurePage() {
           <Card>
             <CardHeader>
               <CardTitle>Structure Overview</CardTitle>
-              <CardDescription>Summary of TRUSTED-ALLY organizational units</CardDescription>
+              <CardDescription>Summary of Al-Mahmud Academy organizational units</CardDescription>
             </CardHeader>
             <CardContent>
               <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">

@@ -14,9 +14,9 @@ export default function ProjectsPage() {
           <div className="ml-auto flex items-center gap-4">
             <div className="flex items-center gap-2">
               <div className="h-8 w-8 rounded-full bg-primary flex items-center justify-center text-primary-foreground">
-                MJ
+                MN
               </div>
-              <span className="font-medium">MJ AHMAD</span>
+              <span className="font-medium"></span>
             </div>
           </div>
         </div>
@@ -26,7 +26,7 @@ export default function ProjectsPage() {
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <div>
               <h2 className="text-2xl font-bold tracking-tight">Project Portfolio</h2>
-              <p className="text-muted-foreground">Manage all TRUSTED-ALLY projects</p>
+              <p className="text-muted-foreground">Manage all Al-Mahmud Academy projects</p>
             </div>
             <div className="flex gap-2">
               <Button variant="outline" asChild>

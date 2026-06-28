@@ -14,7 +14,7 @@ export default function OrganizationPage() {
               <div className="h-8 w-8 rounded-full bg-primary flex items-center justify-center text-primary-foreground">
                 MJ
               </div>
-              <span className="font-medium">MJ AHMAD</span>
+              <span className="font-medium">Md Nazmul Hasan Farazi</span>
             </div>
           </div>
         </div>
@@ -23,7 +23,7 @@ export default function OrganizationPage() {
         <div className="grid gap-6">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <div>
-              <h2 className="text-2xl font-bold tracking-tight">TRUSTED-ALLY Organizational Structure</h2>
+              <h2 className="text-2xl font-bold tracking-tight">Al-Mahmud Academy Organizational Structure</h2>
               <p className="text-muted-foreground">Pyramid structure with Director General at the top</p>
             </div>
             <div className="flex gap-2">
@@ -55,7 +55,7 @@ export default function OrganizationPage() {
               <Card>
                 <CardHeader>
                   <CardTitle>Organizational Hierarchy</CardTitle>
-                  <CardDescription>Pyramid structure of TRUSTED-ALLY</CardDescription>
+                  <CardDescription>Pyramid structure of Al-Mahmud Academy</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="flex flex-col items-center">
@@ -63,7 +63,7 @@ export default function OrganizationPage() {
                     <div className="mb-8">
                       <div className="bg-primary text-primary-foreground px-6 py-4 rounded-lg shadow-lg">
                         <h3 className="font-bold text-center">Director General</h3>
-                        <p className="text-center text-sm">MJ AHMAD</p>
+                        <p className="text-center text-sm">Md Nazmul Hasan Farazi</p>
                       </div>
                     </div>
 
@@ -131,7 +131,7 @@ export default function OrganizationPage() {
                     <div className="p-4 border rounded-md">
                       <h3 className="font-medium mb-2">Director General</h3>
                       <p className="text-sm text-gray-500 mb-2">
-                        MJ AHMAD oversees all operations and is the final authority on strategic decisions.
+                        Md Nazmul Hasan Farazi oversees all operations and is the final authority on strategic decisions.
                       </p>
                       <div className="flex items-center text-sm text-primary">
                         <span>Reports to Board of Trustees</span>

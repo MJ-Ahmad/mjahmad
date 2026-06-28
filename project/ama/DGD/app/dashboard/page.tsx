@@ -27,7 +27,7 @@ export default function DashboardPage() {
               <div className="h-8 w-8 rounded-full bg-primary flex items-center justify-center text-primary-foreground">
                 MJ
               </div>
-              <span className="font-medium">MJ AHMAD</span>
+              <span className="font-medium">Md Nazmul Hasan Farazi</span>
             </div>
           </div>
         </div>
@@ -189,7 +189,7 @@ export default function DashboardPage() {
                 <Card>
                   <CardHeader>
                     <CardTitle>Organization Structure</CardTitle>
-                    <CardDescription>Explore the TRUSTED-ALLY structure</CardDescription>
+                    <CardDescription>Explore the Al-Mahmud Academy structure</CardDescription>
                   </CardHeader>
                   <CardContent className="pl-2">
                     <div className="h-[200px] flex items-center justify-center">
@@ -219,7 +219,7 @@ export default function DashboardPage() {
                           </div>
                           <div className="space-y-1">
                             <p className="text-sm font-medium">Project milestone completed</p>
-                            <p className="text-xs text-gray-500">AlQuranJourney - Phase {i}</p>
+                            <p className="text-xs text-gray-500">Al-Mahmud Academy - Phase {i}</p>
                             <p className="text-xs text-gray-500">2 hours ago</p>
                           </div>
                         </div>
@@ -277,7 +277,7 @@ export default function DashboardPage() {
               <Card>
                 <CardHeader>
                   <CardTitle>Project Management</CardTitle>
-                  <CardDescription>Manage all TRUSTED-ALLY projects</CardDescription>
+                  <CardDescription>Manage all Al-Mahmud Academy projects</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="text-center py-12">
@@ -291,7 +291,7 @@ export default function DashboardPage() {
               <Card>
                 <CardHeader>
                   <CardTitle>Personnel Management</CardTitle>
-                  <CardDescription>Manage all TRUSTED-ALLY staff</CardDescription>
+                  <CardDescription>Manage all Al-Mahmud Academy staff</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="text-center py-12">
@@ -305,7 +305,7 @@ export default function DashboardPage() {
               <Card>
                 <CardHeader>
                   <CardTitle>Data Center</CardTitle>
-                  <CardDescription>Access the TRUSTED-ALLY Data Center</CardDescription>
+                  <CardDescription>Access the Al-Mahmud Academy Data Center</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="text-center py-12">

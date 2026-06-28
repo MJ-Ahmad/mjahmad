@@ -21,13 +21,13 @@ export default function DataCenterPage() {
     <div className="flex min-h-screen flex-col">
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center">
-          <h1 className="text-xl font-bold">TRUSTED-ALLY Data Center</h1>
+          <h1 className="text-xl font-bold">Al-Mahmud Academy Data Center</h1>
           <div className="ml-auto flex items-center gap-4">
             <div className="flex items-center gap-2">
               <div className="h-8 w-8 rounded-full bg-primary flex items-center justify-center text-primary-foreground">
                 MJ
               </div>
-              <span className="font-medium">MJ AHMAD</span>
+              <span className="font-medium">Md Nazmul Hasan Farazi</span>
             </div>
           </div>
         </div>
@@ -37,7 +37,7 @@ export default function DataCenterPage() {
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <div>
               <h2 className="text-2xl font-bold tracking-tight">Data Management System</h2>
-              <p className="text-muted-foreground">Centralized data repository for all TRUSTED-ALLY operations</p>
+              <p className="text-muted-foreground">Centralized data repository for all Al-Mahmud Academy operations</p>
             </div>
             <div className="flex flex-col sm:flex-row gap-2">
               <div className="relative">
@@ -133,14 +133,14 @@ export default function DataCenterPage() {
             <TabsContent value="structure" className="space-y-6">
               <Card>
                 <CardHeader>
-                  <CardTitle>TrustedAllyDataCenter Structure</CardTitle>
+                  <CardTitle>Al-Mahmud Academy Data Center Structure</CardTitle>
                   <CardDescription>Hierarchical organization of all data</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="p-4 border rounded-md bg-gray-50 dark:bg-gray-900 overflow-auto max-h-[500px]">
                     <pre className="text-sm">
                       <code>
-                        {`TrustedAllyDataCenter/
+                        {`AlMahmudAcademyDataCenter/
 ├── BusinessOperations/
 │   ├── Production/
 │   ├── Marketing/
