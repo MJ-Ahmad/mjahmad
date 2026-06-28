@@ -1,0 +1,17 @@
+MJAhmad
+ 
+CLI
+ gh
+   gh auth login
+   gh repo create mj-ahmad --public --source=. --remote=origin --push
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git remote -v
+
+   gh repo create mjahmad --public --clone
+
+   Remove-Item Timeline\.git -Recurse -Force
+   git add .
+   git commit -m "Initial commit"
+   git push -u origin main
